@@ -150,14 +150,14 @@ if __name__ == '__main__':
     hu_kitchen_almond_crunch = FoodValues('Hu Kitchen Almond Crunch Bar', calories=380, fat=24, carbs=26, protein=6, serv_size=60)
     hu_kitchen_orange_vanilla = FoodValues('Hu Kitchen Orange Vanilla Bar', calories=360, fat=26, carbs=28, protein=6, serv_size=60)
 
-    #Social Nights (lolz)
+    #Social Nights 
     omi_night_out = FoodValues('Omi Night Out', calories=1500, fat=65, carbs=45, protein=42, serv_size=215)
     omi_night_out_alcohol = FoodValues('Omi Night Out Alcohol', calories=1000, fat=0, carbs=65, protein=0, serv_size=115)
 
-    #Andy's Custard (peanut butter something med; 1700 cal)
+    #Andy's Custard 
     andys_jbj = FoodValues('Andy\'s James Brown Jackhammer w Reeses', calories=1700, fat=115, carbs=162, protein=39, serv_size=350)
     
-    #Tacos Azteca (Sope de carnita, gordita de rajas con queso)
+    #Tacos Azteca 
     tacos_azteca_sope = FoodValues('Tacos Azteca Sope', calories=400, fat=24, carbs=35, protein=18, serv_size=150)
     tacos_azteca_gordita = FoodValues('Tacos Azteca Gordita', calories=200, fat=12, carbs=20, protein=6, serv_size=58)
     tacos_azteca_tacos = FoodValues('Tacos Azteca Tacos', calories=220, fat=13, carbs=22, protein=7, serv_size=68)
@@ -495,27 +495,13 @@ if __name__ == '__main__':
 
 
 
-                                          
-    # Smack that combo bish                                      
-
-    todays_combo = sum([chicken_breast_1oz*8,yams_100g*3,
-                        thai_chili_sauce,brussels_100g*2,
-                        butter*2])
-
-        
-    
-    # Add manually
-    # bkfast_burrito = 3 * egg + cheese + bacon + corn_tortilla
-    # Or use sum, the main reason to implement addition to 0
-
-
-    bkfast = sum([maria_bonita_torta/2,coffee]) 
+    bkfast = sum([]) 
     bkfast.name = 'Breakfast' 
      
-    lunch = sum([maria_bonita_torta/2,modelo_24oz])
+    lunch = sum([])
     lunch.name = 'Lunch' 
 
-    dinner = sum([bnj_half_baked,modelo_24oz])
+    dinner = sum([])
     dinner.name = 'Dinner'
 
     net_total = sum([bkfast,lunch,dinner])
